@@ -1,0 +1,5 @@
+{
+  "name": "WhatsApp Real-time Broadcast System",
+  "description": "A complete real-time WhatsApp Cloud API Broadcast System that sends messages to 500+ people at once and shows live status updates. This is a frontend simulation of a full-stack system.",
+  "requestFramePermissions": []
+}
