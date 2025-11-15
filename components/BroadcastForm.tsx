@@ -29,8 +29,8 @@ export const BroadcastForm: React.FC<BroadcastFormProps> = ({ onStart, isBroadca
   const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (file) {
-      if (file.size > 5 * 1024 * 1024) { // 5MB limit
-        setError('Image size cannot exceed 5MB.');
+      if (file.size > 150 * 1024 * 1024) { // 150MB limit
+        setError('Image size cannot exceed 150MB.');
         return;
       }
       setImage(file);
@@ -157,7 +157,7 @@ export const BroadcastForm: React.FC<BroadcastFormProps> = ({ onStart, isBroadca
                 disabled={isBroadcasting}
                 ref={fileInputRef}
               />
-              <p className="text-xs text-gray-500 mt-1">Max file size: 5MB. PNG, JPG, WEBP.</p>
+              <p className="text-xs text-gray-500 mt-1">Max file size: 150MB. PNG, JPG, WEBP.</p>
             </div>
           )}
         </div>
