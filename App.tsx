@@ -33,7 +33,7 @@ const App: React.FC = () => {
             <h1 className="text-3xl font-bold text-green-400">WhatsApp Broadcast System</h1>
             <p className="text-gray-400 mt-1">Send messages to hundreds of users and monitor real-time status.</p>
           </div>
-          <a href="https://github.com/your-repo" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+          <a href="https://github.com/wasp-broadcast/whatsapp-broadcaster" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
             <GithubIcon className="w-8 h-8" />
           </a>
         </header>
